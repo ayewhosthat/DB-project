@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 public class Restaurant {
     public static final String URL = "jdbc:db2://winter2025-comp421.cs.mcgill.ca:50000/comp421";
-    public static final String USER = "cs421g109";
-    public static final String PASSWORD = "109aryangabialan#";
+    public static final String USER = "REDACTED";
+    public static final String PASSWORD = "REDACTED";
     public static void main(String[] args) throws SQLException {
         DriverManager.registerDriver(new com.ibm.db2.jcc.DB2Driver());
 
